@@ -93,5 +93,25 @@ nav{
 
 .Gflex{
     background-color: #d3d3d3;
+    flex-direction: row-reverse;
 
+}
+
+.Greenflex{
+    height: 1000px;
+    background-color: #d3d3d3;
+}
+
+#greenbox{
+    width: 1200px;
+    height: 900px;
+    background-color: #228b22;
+    border: 1px black dashed;
+}
+
+/* FOOTER */
+
+.blackbox1{
+    height: 630px;
+    background-color: #23272a;
 }
