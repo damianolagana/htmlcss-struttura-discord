@@ -115,3 +115,40 @@ nav{
     height: 630px;
     background-color: #23272a;
 }
+
+#footpink{
+    height: 580px;
+    width: 360px;
+    background-color: #f08080;
+    border: 1px black dashed;
+}
+
+.footblue{
+    width: 210px;
+    height: 580px;
+    background-color: #20b2aa;
+    border: 1px white dashed;
+}
+
+/* footer 2 */
+
+.blackbox2{
+    height: 110px;
+    background-color: #23272a;
+    align-items: end;
+}
+
+#turchesebox{
+    height: 80px;
+    width: 1200px;
+    background-color: #7fffd4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    border: 1px black dashed;
+    padding: 5px;
+}
