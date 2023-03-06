@@ -4,42 +4,94 @@
     padding: 0;
 }
 
-header{
-    max-height: 580px;
-    background-color: #add8e6;
-}
-
 .boxed{
     max-width: 1200px;
     margin: auto;
 }
 
-#nav{
+/* struttura header */
+header{
+    max-height: 580px;
+    background-color: #add8e6;
+}
+
+.flexHead{
+    display: flex;
+    justify-content: space-between;
     background-color: #daa520;
     max-width: 1200px;
     height: 45px;
-    align-items: center;
+        
 }
 
-.flexContainer{
-    display: flex;
-    justify-content: space-between;
-}
+/*  barra navigazione */
 
 #logo{
     width: 240px;
     border: 1px black dashed;
-    height: 45px;
+    padding: 13px;
+
 }
 
 #link{
     width: 720px;
     text-align: center;
+    padding: 13px;
     border: 1px black dashed;
 }
 
 #login{
     width: 240px;
     text-align: end;
+    padding: 13px;
     border: 1px black dashed;
+}
+
+nav{
+    height: 80px;
+    padding-top: 10px;
+}
+
+/* blue box HEADER*/
+
+.flexgen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.Blueflex{
+    background-color: #00008b;
+    height: 500PX;
+}
+
+.pinkbanner{
+    background-color: #ee82ee;
+    height: 400px;
+    width: 900px;
+    border: 1px black dashed;
+}
+
+
+/* MAIN */
+/* .flexgen */
+
+.bluebox{
+    height: 500px;
+    width: 700px;
+    background-color: #1e90ff;
+    border: 1px black dashed;
+}
+
+.pinkbox{
+    height: 500px;
+    width: 500px;
+    background-color: #ffc0cb;
+    border: 1px black dashed;
+}
+
+.Gflex{
+    background-color: #d3d3d3;
+
 }
